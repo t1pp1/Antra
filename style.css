@@ -1,0 +1,68 @@
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row input {
+  height: 30px;
+  flex: 1;
+  margin: 10px 20px;
+  border-radius: 3px;
+}
+
+.row input::placeholder {
+  padding-left: 5px;
+}
+
+.row button {
+  height: 50px;
+  flex: 1;
+  margin: 10px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-size: large;
+}
+
+.row button:hover {
+  cursor: pointer;
+}
+
+.checkbox-container input {
+  vertical-align: middle;
+}
+.checkbox-container label span {
+  vertical-align: middle;
+}
+
+#conditions {
+  width: 70%;
+}
+
+#register-button {
+  background-color: rgb(66, 139, 202);
+}
+
+#sign-in-button {
+  background-color: rgb(92, 184, 92);
+}
+
+#register-legend {
+  background-color: rgb(66, 139, 202);
+  color: white;
+  border-radius: 3px;
+  padding: 1px 5px;
+}
+
+a {
+  text-decoration: none;
+}
